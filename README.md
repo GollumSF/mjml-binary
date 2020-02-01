@@ -1,6 +1,6 @@
 # MJML Binary
 
-MJML compiled binary in composer for php without nodejs
+MJML compiled binary in composer for php without nodejs for [MjmlBundle](https://github.com/notFloran/mjml-bundle)
 
 [![Build Status](https://travis-ci.org/GollumSF/mjml-binary.svg?branch=master)](https://travis-ci.org/GollumSF/mjml-binary)
 [![License](https://poser.pugx.org/gollumsf/mjml-binary/license)](https://packagist.org/packages/gollumsf/mjml-binary)

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e365ed2983b1c2dc70d3149e39d3774a",
+    "content-hash": "ec05789d0c0487c5e15d9461c4af6586",
     "packages": [
         {
             "name": "notfloran/mjml-bundle",

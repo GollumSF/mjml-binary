@@ -1,7 +1,7 @@
 {
 	"name" : "gollumsf/mjml-binary",
 	"type" : "symfony-bundle",
-	"description" : "MJML compiled binary in composer for php without nodejs",
+	"description" : "MJML compiled binary in composer for php without nodejs for MjmlBundle",
 	"keywords" : [
 		"token",
 		"url",
@@ -22,7 +22,7 @@
 	},
 	"require" : {
 		"php": "^7.2",
-		"notfloran/mjml-bundle": "^3.3"
+		"notfloran/mjml-bundle": "*"
 	},
 	"require-dev" : {
 		"phpunit/phpunit": "^8.5"
