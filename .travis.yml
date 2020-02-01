@@ -1,0 +1,25 @@
+language: php
+
+php:
+    - 7.2
+    
+matrix:
+  fast_finish: true
+
+install:
+    - composer self-update
+    - composer update --prefer-dist --dev --no-interaction $COMPOSER_FLAGS
+
+before_script:
+    - mkdir -p build/logs
+
+script: vendor/bin/phpunit tests/
+
+after_success:
+    - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
+    - chmod +x send.sh
+    - ./send.sh success $WEBHOOK_URL
+after_failure:
+    - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
+    - chmod +x send.sh
+    - ./send.sh failure $WEBHOOK_URL

@@ -1,0 +1,35 @@
+{
+	"name" : "gollumsf/mjml-binary",
+	"type" : "symfony-bundle",
+	"description" : "MJML compiled binary in composer for php without nodejs",
+	"keywords" : [
+		"token",
+		"url",
+		"simple",
+		"hash",
+		"gollumsf"
+	],
+	"homepage" : "https://github.com/GollumSF/mjml-binary",
+	"license" : "GPL-3.0-or-later",
+	"authors" : [{
+			"name" : "Damien Duboeuf",
+			"email" : "smeagolworms4@gmail.com"
+		}
+	],
+	"support" : {
+		"email" : "smeagolworms4@gmail.com",
+		"wiki" : "https://github.com/GollumSF/mjml-binary/blob/master/README.md"
+	},
+	"require" : {
+		"php": "^7.2",
+		"notfloran/mjml-bundle": "^3.3"
+	},
+	"require-dev" : {
+		"phpunit/phpunit": "^8.5"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Test\\GollumSF\\MJMLBinary\\" : "tests/"
+		}
+	}
+}
