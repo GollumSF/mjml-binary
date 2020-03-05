@@ -25,7 +25,7 @@ mjml:
     # Other confifuration
     options:
         # Other confifuration
-        binary: '%kernel.project_dir%/gollumsf/mjml-binary/dist/mjml-linux' # You can use mjml-linux, mjml-win, mjml-alpine, mjml-macos 
+        binary: '%kernel.project_dir%/vendor/gollumsf/mjml-binary/dist/mjml-linux' # You can use mjml-linux, mjml-win, mjml-alpine, mjml-macos 
 ```
 
 
