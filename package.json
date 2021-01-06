@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "MJML compiled binary in composer for php without nodejs",
   "scripts": {
-    "build": "node_modules/.bin/pkg node_modules/mjml/bin/mjml -t node12-linux-x64,node12-win-x64,,node12-alpine-x64,node12-macos-x64 -o dist/mjml"
+    "build": "node_modules/.bin/pkg node_modules/mjml/bin/mjml -t node14-linux-x64,node14-win-x64,,node14-alpine-x64,node14-macos-x64 -o dist/mjml"
   },
   "author": "Damien Duboeuf <smeagolworms4@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "mjml": "^4.5.1",
-    "pkg": "^4.4.2"
+    "mjml": "^4.8.1",
+    "pkg": "^4.4.9"
   }
 }
