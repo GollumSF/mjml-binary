@@ -20,11 +20,8 @@
 		"email" : "smeagolworms4@gmail.com",
 		"wiki" : "https://github.com/GollumSF/mjml-binary/blob/master/README.md"
 	},
-	"require" : {
-		"php": "^7.2",
-		"notfloran/mjml-bundle": "*"
-	},
 	"require-dev" : {
+		"notfloran/mjml-bundle": "*",
 		"phpunit/phpunit": "^8.5"
 	},
 	"autoload-dev": {
