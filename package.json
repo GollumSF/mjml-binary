@@ -8,7 +8,7 @@
   "author": "Damien Duboeuf <smeagolworms4@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "mjml": "^4.8.1",
+    "mjml": "^4.13.0",
     "pkg": "^4.4.9"
   }
 }
